@@ -39,6 +39,7 @@ body{
     width: 120px;
     height: 120px;
     border-radius: 50%;
+    margin-bottom: 10px;
 }
 
 .user_name{
@@ -48,6 +49,8 @@ body{
 
 .skill{
     color: rgba(155, 155, 155, 0.555);
+    font-weight: bolder;
+    font-size: 1.5rem;
 }
 
 .arr_container, .cancel{
@@ -87,7 +90,6 @@ body{
 }
 
 .active{
-    margin-bottom: 15px;
     font-size: 1,2rem;
 }
 
@@ -97,19 +99,19 @@ body{
     border: 1px solid rgb(155, 155, 155);
     padding: 5px 10px;
     font-size: 1.6rem;
-    /* margin-top: 20px; */
+    margin-top: 20px;
     margin: 4px 4px 4px 0;
     cursor: pointer;
 }
 
 .left_container p {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     font-size: 1.6rem;
 }
 
 .left_container .icons{
     font-size: 1.6rem;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .left_container .icons i{
@@ -123,6 +125,30 @@ body{
     color: #2c5364;
 }
 
-.link{
+.link, .info-link{
     text-decoration: none;
 }
+
+.div{
+    margin-top: 10px;
+}
+
+.info-text{
+   margin-top: 20px;
+}
+
+.info-link{
+    color: rgb(155, 155, 155);
+  
+}
+
+.spann{
+    font-size: 1.2rem;
+}
+
+.span {
+    font-size: 1rem;
+    display: block;
+    font-weight: bold;
+}
+
